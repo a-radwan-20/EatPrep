@@ -10,9 +10,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans&family=Poppins:wght@400;600&family=Rubik:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Open+Sans&family=Poppins:wght@400;600&family=Rubik:wght@400;500;600;700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="css/general.css">
+  <link rel="stylesheet" href="css/style.css">
+
   <title>EatPrep</title>
 </head>
 
@@ -20,7 +25,15 @@
   <header class="header">
     <img class="logo" src="img/logos/Eat Prep.png" alt="EatPrep logo">
 
-    <nav class="main-nav">Navigation</nav>
+    <nav class="main-nav">
+      <ul class="main-nav-list">
+        <li> <a href="#how" class="main-nav-link">How it works</a> </li>
+        <li> <a href="#" class="main-nav-link">Meals</a> </li>
+        <li> <a href="#" class="main-nav-link">Testimonials</a> </li>
+        <li> <a href="#" class="main-nav-link">Pricing</a> </li>
+        <li> <a href="#" class="main-nav-link nav-cta-btn">Free try</a> </li>
+      </ul>
+    </nav>
   </header>
 
   <section class="section-hero">
@@ -57,6 +70,72 @@
       </div>
     </div>
   </section>
+
+  <!-- how it works section -->
+
+  <section id="how" class="how">
+    <div class="container">
+      <span class="sub-heading"> How it works </span>
+      <h2 class="heading-secondary">
+        Your healthy meal in 3 simple steps
+      </h2>
+    </div>
+
+    <div class="container grid grid--2-cols">
+      <!-- step 01 -->
+      <div class="how-step-text-box">
+        <p class="step-num">01</p>
+        <h3 class="heading-reuse"> Your preferences start here</h3>
+        <p class="how-step-desc">
+          Never cook again, just let us know that you like and what you don't.
+          In a few choices and minutes you could build your healthy plan
+        </p>
+      </div>
+      <div class="how-step-img-box">
+        <img src="img/app/abillion-0gVthlBI_Z4-unsplash (1).jpg" class="how-step-img"
+          alt="Let us know what food you like and what you don't">
+
+        <div class="outer-circle">
+          <div class="inner-circle">
+          </div>
+        </div>
+      </div>
+
+
+      <!-- step 02 -->
+      <div class="how-step-img-box">
+        <img src="img/app/abillion-BiYAClEcx_s-unsplash (1).jpg" class="how-step-img"
+          alt="Let us know what food you like and what you don't">
+      </div>
+
+      <div class="how-step-text-box">
+        <p class="step-num">02</p>
+        <h3 class="heading-reuse"> Approve your weekly meal plan</h3>
+        <p class="how-step-desc">
+          Once per week our AI algorithm, will pick it up for you and then you got the chance to select or deselect some
+          food items.
+        </p>
+      </div>
+
+      <!-- Step 03 -->
+      <div class="how-step-text-box">
+        <p class="step-num">03</p>
+        <h3 class="heading-reuse"> Time to deliver your meal at your suitable time</h3>
+        <p class="how-step-desc">
+          Now after you picked your preferences and agreed on what we picked for you, it's time to sit back, relax and enjoy your meals.
+        </p>
+      </div>
+
+      <div class="how-step-img-box">
+        <img src="img/app/abillion-MECCK94D5Cs-unsplash (1).jpg" class="how-step-img"
+          alt="Let us know what food you like and what you don't">
+      </div>
+
+
+    </div>
+
+  </section>
+
 </body>
 
 </html>

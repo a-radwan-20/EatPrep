@@ -1,0 +1,140 @@
+/* ************************* */
+/* Gerenral Reusable Components */
+/* ************************* */
+
+.container {
+  /* 1140px very common view port screen view */
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.grid {
+  display: grid;
+  column-gap: 4.8rem;
+  row-gap: 9.6rem;
+
+  align-items: center;
+}
+
+.grid--2-cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3-cols {
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid--4-cols {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.section-hero {
+  /* max-width: 130rem; */
+  background-color: #f8f9ee;
+  padding: 3.2rem 0 9.6rem 0;
+  margin-bottom: 9.6rem;
+}
+.heading-primary,
+.heading-secondary {
+  font-weight: 700;
+  color: #333;
+  letter-spacing: -0.5px;
+}
+
+.heading-primary {
+  font-size: 4.4rem;
+  line-height: 1.05;
+  margin-bottom: 3.2rem;
+}
+
+.heading-secondary {
+  font-size: 4.4rem;
+  line-height: 1.2;
+  margin-bottom: 9.6rem;
+}
+
+.sub-heading {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 500;
+  color: #91972a;
+  text-transform: uppercase;
+  margin-bottom: 1.6rem;
+  letter-spacing: 0.75px;
+}
+
+.heading-reuse {
+  font-size: 3rem;
+  line-height: 1.2;
+  margin-bottom: 3.2rem;
+}
+
+.hero-grid {
+  max-width: 140rem;
+  margin: 0 auto;
+  padding: 0 3.2rem;
+
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  gap: 9.6rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-heading {
+  font-size: 5.2rem;
+  color: #555;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+  font-weight: 700;
+}
+
+.hero-desc {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #555;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  padding: 1.6rem 3.2rem;
+  box-shadow: 0 0 1px 0px #5b622a; /* you can add the inset keyword*/
+
+  transition: background-color 0.3s;
+}
+
+.hero-cta-btn:link,
+.hero-cta-btn:visited {
+  color: #fff;
+  background-color: #91972a;
+}
+
+.hero-cta-btn:hover,
+.hero-cta-btn:active {
+  background-color: #b6c454;
+}
+
+.hero-learn-btn:link,
+.hero-learn-btn:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.hero-learn-btn:hover,
+.hero-learn-btn:active {
+  background-color: #f8f9ee;
+}
+
+.margin-right-sm {
+  margin-right: 1.6rem !important;
+}
