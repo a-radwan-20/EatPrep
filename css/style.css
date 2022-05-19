@@ -156,12 +156,7 @@ body {
 
 .section-how {
   padding: 9.6rem;
-}
-
-.how-step-img-box {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  
 }
 
 .step-num {
@@ -176,11 +171,40 @@ body {
   line-height: 1.8;
 }
 
-.how-step-img {
-  width: 35%;
+.how-step-img-box {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.how-step-img-box::before, .how-step-img-box::after{
+  content: "";
+  display: block;
+  position: absolute;
+  border-radius: 50%;
+}
+.how-step-img-box::before {  
+  width: 60%;
+  /* height: 60%; */
+  padding-bottom: 60%;
+  background-color: #b5c4541c;
+  /* left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%); */
+  z-index: -2;
 }
 
-.outer-circle {
-  border-radius: 50%;
-  background-color: #7f893b;
+.how-step-img-box::after {
+  width: 50%;
+  /* height: 60%; the trick if it didn't show to do padding-bottom same as width to make it square */
+  padding-bottom: 50%;
+  background-color: #b5c4541c;
+  z-index: -1;
 }
+
+.how-step-img {
+  width: 35%;
+  border-radius: 5%;
+}
+
+
