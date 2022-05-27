@@ -151,12 +151,43 @@ body {
 }
 
 /* ************************* */
+/* AS Featured IN Section */
+/* ************************* */
+.featured {
+  padding: 2.4rem 0 6.4rem 0;
+}
+.container {
+  max-width: 120rem;
+  padding: 0 3.2rem;
+  margin: 0 auto;
+}
+
+.heading-featured {
+  font-size: 1.6rem;
+  text-align: center;
+  text-transform: uppercase;
+  color: #888;
+  font-weight: 500;
+  letter-spacing: 0.75px;
+  margin-bottom: 2.4rem;
+}
+
+.logos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logos img {
+  height: 3.2rem;
+  filter: brightness(0);
+  opacity: 0.5;
+}
+/* ************************* */
 /* How it works Section */
 /* ************************* */
 
-.section-how {
+.how {
   padding: 9.6rem;
-  
 }
 
 .step-num {
@@ -177,13 +208,14 @@ body {
   justify-content: center;
   align-items: center;
 }
-.how-step-img-box::before, .how-step-img-box::after{
+.how-step-img-box::before,
+.how-step-img-box::after {
   content: "";
   display: block;
   position: absolute;
   border-radius: 50%;
 }
-.how-step-img-box::before {  
+.how-step-img-box::before {
   width: 60%;
   /* height: 60%; */
   padding-bottom: 60%;
@@ -203,8 +235,9 @@ body {
 }
 
 .how-step-img {
-  width: 35%;
+  width: 40%;
   border-radius: 5%;
 }
-
-
+.extra-radius {
+  border-radius: 11%;
+}
