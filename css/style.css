@@ -9,8 +9,7 @@ Semi-bold: 600
 Bold: 700
 
 -- Line Heights: 
-Default: 1
-1.2
+Default: 1, 1.2
 
 -- Line Spacing:
 0.5px
@@ -21,13 +20,16 @@ Primary :  #e6d3a3, #d8d174, #b6c454, #91972a
 GREY :     #444 #555 #333
 TINTS :    #f8f9ee
 SHADES :   #5b622a
-ACCENT :
-
+ACCENT :   
+Tags:      #da77f2 , #40c057 , #a9e34b
 
 --- 03 Shadows
 
 
 --- 04 Border-Radius
+small: 9px
+medium: 11px
+
 
 
 --- 05 Whitespace - SPACING SYSTEM (px)
@@ -240,4 +242,99 @@ body {
 }
 .extra-radius {
   border-radius: 11%;
+}
+
+/* ************************* */
+/* Meals Section */
+/* ************************* */
+
+.meals {
+  padding: 9.6rem;
+}
+
+.meal {
+  box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
+  border-radius: 11px;
+  overflow: hidden;
+  transition: all 0.4s;
+}
+
+.meal:hover {
+  transform: translateY(-0.6rem);
+  box-shadow: 0 6.8rem 9.8rem rgba(0, 0, 0, 0.05);
+}
+
+.meal-content {
+  padding: 3.2rem 4.8rem 4.8rem 4.8rem;
+}
+
+.tag {
+  display: inline-block;
+  font-size: 1.2rem;
+  border-radius: 100px;
+  padding: 0.4rem 0.8rem;
+  color: #333;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.meal-tags {
+  margin-bottom: 1.2rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.tag--keto {
+  background-color: #da77f2;
+}
+
+.tag--vegeterian {
+  background-color: #40c057;
+}
+
+.tag--vegan {
+  background-color: #a9e34b;
+}
+
+.meal-title {
+  font-size: 2rem;
+  color: #333;
+  font-weight: 600;
+  margin-bottom: 3.2rem;
+}
+
+.meal-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2.4rem;
+}
+
+.meal-item {
+  display: flex;
+  gap: 11px;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+}
+
+.meal-icon {
+  height: 2.4rem;
+  width: 2.4rem;
+  color: #91972a;
+}
+
+.meal-photo {
+  width: 100%;
+}
+
+.diet-content {
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.all-recipes {
+  /* text-align: center; */
+  margin-top: 3.2rem;
+  font-size: 1.8rem;
 }

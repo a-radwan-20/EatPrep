@@ -13,7 +13,13 @@
   display: grid;
   column-gap: 4.8rem;
   row-gap: 9.6rem;
+}
+.grid--center-v {
   align-items: center;
+}
+
+.grid--center-h {
+  justify-content: center;
 }
 
 .grid--2-cols {
@@ -56,12 +62,12 @@
 
 .sub-heading {
   display: block;
-  font-size: 1.6rem;
-  font-weight: 500;
-  color: #91972a;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #5b622a;
   text-transform: uppercase;
   margin-bottom: 1.6rem;
-  letter-spacing: 0.75px;
+  letter-spacing: 0.5rem;
 }
 
 .heading-reuse {
@@ -135,6 +141,31 @@
   background-color: #f8f9ee;
 }
 
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #91972a;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:active, .link:hover {
+  color: #b6c454;
+  border-bottom: 1px solid transparent;
+  
+}
+
 .margin-right-sm {
   margin-right: 1.6rem !important;
+}
+
+.margin-bottom-md {
+  margin-bottom: 4.8rem !important;
+}
+
+strong {
+  font-weight: 600;
 }
