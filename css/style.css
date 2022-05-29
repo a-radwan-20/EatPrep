@@ -47,7 +47,7 @@ medium: 11px
   margin: 0;
   box-sizing: border-box;
 }
- 
+
 :root {
   /* Write variables here */
 
@@ -337,4 +337,64 @@ body {
   /* text-align: center; */
   margin-top: 3.2rem;
   font-size: 1.8rem;
+}
+
+/* ************************* */
+/* Testimonials Section */
+/* ************************* */
+
+.testimonials {
+  background-color: #f8f9ee;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+  margin-bottom: 9.6rem;
+}
+
+.testi-heading {
+  padding: 12.8rem;
+}
+.testi-all {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  row-gap: 4.8rem;
+  column-gap: 8rem;
+}
+
+.testi-img {
+  width: 8rem;
+  border-radius: 50%;
+  margin-bottom: 1.2rem;
+}
+
+.testi-text {
+  font-size: 1.8rem;
+  line-height: 1.8;
+  margin-bottom: 1.6rem;
+}
+
+.testi-name {
+  font-size: 1.6rem;
+  color: #6f6f6f;
+}
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+  /* padding: 1.6rem; */
+}
+
+.gallery-img {
+  overflow: hidden;
+}
+
+.gallery-img img {
+  display: block;
+  width: 100%;
+  transition: all 0.4s;
+}
+
+.gallery-img img:hover {
+  transform: scale(1.1);
 }
