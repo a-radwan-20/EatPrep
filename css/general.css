@@ -57,7 +57,7 @@
 .heading-secondary {
   font-size: 4.4rem;
   line-height: 1.2;
-  margin-bottom: 9.6rem;
+  margin-bottom: 6.4rem;
 }
 
 .sub-heading {
@@ -168,4 +168,14 @@
 
 strong {
   font-weight: 600;
+}
+
+img {
+  /* max-width: 100%; */
+}
+
+@media (max-width: 75em) {
+  html {
+    font-size: 56.25%;
+  }
 }
