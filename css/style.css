@@ -504,7 +504,7 @@ body {
   padding: 2.4rem;
   position: relative;
   overflow: hidden;
-  box-shadow: 22 13 65 rgba(0, 0, 0, 0.075)
+  box-shadow: 22 13 65 rgba(0, 0, 0, 0.075);
 }
 
 .pricing-plan-complete::after {
