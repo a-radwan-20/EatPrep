@@ -42,17 +42,14 @@ Kid-friendly
 
 **EatPrep AI chooses from 7,000+ recipes**
 
-
-
-
 Meal 1: Turmeric, ginger & coconut fish curry
 Vegan
+
 - 400g boneless and skinless cod loin, cut into chunks
 - 325ml light coconut milk
 - thumb-sized piece of ginger, grated
 - 300g frozen peas
 - 400g brown basmati rice, cooked, to serve
-
 
 STEP 1
 Heat the oil in a large saucepan over a medium heat, then fry the onion for 8 mins until translucent. Stir in the ginger and spices, and cook for another minute. Pour in the coconut milk and 100ml water, stir, then simmer for 10 mins.
@@ -60,15 +57,12 @@ Heat the oil in a large saucepan over a medium heat, then fry the onion for 8 mi
 STEP 2
 Add the cod, frozen peas and sugar snap peas, and simmer for 5 mins until the fish is flaky. Serve with the rice, sliced chilli, a good grinding of black pepper and some lime wedges on the side for squeezing over.
 
-
 Meal 2: Prawn & harissa spaghetti
 1 large garlic clove , lightly bashed
 150g cherry tomatoes , halved
 150g raw king prawns
 100g long-stem broccoli , cut into thirds
 180g dried spaghetti , regular or wholemeal
-
-
 
 STEP 1
 Bring a pan of lightly salted water to the boil. Add the broccoli and boil for 1 min 30 secs, or until tender. Drain and set aside. Cook the pasta following pack instructions, then drain, reserving a ladleful of cooking water.
@@ -85,7 +79,6 @@ Toss the cooked spaghetti and pasta water through the prawns and harissa. Stir t
 ### We offer a free sample meal
 
 [Create simple form for users to sign up]
-
 
 ### We have 2 pricing plans
 
@@ -106,18 +99,17 @@ Complete: $349 per month
 
 ### Photo gallery
 
-
-
 ### Customer testimonials
 
 [Photos of customers included]
-
 
 ### Section with logos of featured publications [see images]
 
 ### Contact information
 
-
+1161 Glenview Drive, Corpus Christi, TX 78476, Texas.
+tel:361-577-1559
+mailto:support@eatprep.com
 
 Social profiles: instagram, facebook, twitter [Work in process]
 
