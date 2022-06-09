@@ -42,13 +42,6 @@
   grid-template-columns: repeat(5, 1fr);
 }
 
-.section-hero {
-  /* max-width: 130rem; */
-  background-color: #f8f9ee;
-  padding: 3.2rem 0 4.8rem 0;
-  margin-bottom: 4.8rem;
-}
-
 .heading-primary,
 .heading-secondary {
   font-weight: 700;
@@ -85,7 +78,7 @@
 }
 
 .hero-grid {
-  max-width: 140rem;
+  max-width: 130rem;
   margin: 0 auto;
   padding: 0 3.2rem;
 
@@ -93,77 +86,6 @@
   grid-template-columns: 1fr 1fr;
   align-items: center;
   gap: 9.6rem;
-}
-
-.hero-img {
-  width: 100%;
-}
-
-.hero-heading {
-  font-size: 5.2rem;
-  color: #555;
-  line-height: 1.05;
-  letter-spacing: -0.5px;
-  margin-bottom: 3.2rem;
-  font-weight: 700;
-}
-
-.hero-desc {
-  font-size: 2rem;
-  line-height: 1.4;
-  color: #555;
-  margin-bottom: 4.8rem;
-}
-
-.btn:link,
-.btn:visited {
-  text-decoration: none;
-  font-size: 2rem;
-  font-weight: 600;
-  border-radius: 1rem;
-  padding: 1.6rem 3.2rem;
-  box-shadow: 0 0 1px 0px #5b622a; /* you can add the inset keyword*/
-
-  transition: background-color 0.3s;
-}
-
-.hero-cta-btn:link,
-.hero-cta-btn:visited {
-  color: #fff;
-  background-color: #91972a;
-}
-
-.hero-cta-btn:hover,
-.hero-cta-btn:active {
-  background-color: #b6c454;
-}
-
-.hero-learn-btn:link,
-.hero-learn-btn:visited {
-  background-color: #fff;
-  color: #555;
-}
-
-.hero-learn-btn:hover,
-.hero-learn-btn:active {
-  background-color: #f8f9ee;
-}
-
-.link:link,
-.link:visited {
-  display: inline-block;
-  color: #91972a;
-  text-decoration: none;
-  border-bottom: 1px solid currentColor;
-
-  padding-bottom: 2px;
-  transition: all 0.3s;
-}
-
-.link:active,
-.link:hover {
-  color: #b6c454;
-  border-bottom: 1px solid transparent;
 }
 
 .margin-right-sm {

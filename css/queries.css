@@ -1,0 +1,128 @@
+/* The rem and em does not depend on the html font-size we set before which 62.5%  Instead
+1rem = 1em = 16px. and because some browsers dont use the rem correctly we will use the em
+any screen size should be devided by 16 and floor the result number for em
+*/
+
+/* 
+*******************************
+Below 1344px (smaller desktops)
+*******************************
+*/
+
+@media (max-width: 84em) {
+  .hero-grid {
+    max-width: 120rem;
+  }
+
+  .hero-heading {
+    font-size: 4.4rem;
+  }
+
+  .header {
+    padding: 0 3.2rem;
+  }
+}
+
+/* 
+*******************************
+Below 1200px (Landscape Tablets)
+*******************************
+*/
+@media (max-width: 75em) {
+  :root {
+    font-size: 56.9%;
+  }
+  .grid {
+    column-gap: 4.8rem;
+    row-gap: 6.4rem;
+  }
+  .hero-heading {
+  }
+  .heading-primary {
+  }
+  .heading-secondary {
+    font-size: 3.6rem;
+  }
+  .sub-heading {
+    font-size: 1.2rem;
+  }
+  .heading-reuse {
+    font-size: 2.4rem;
+  }
+  .header {
+    padding: 0 3.2rem;
+  }
+  .main-nav-list {
+    gap: 3.2rem;
+  }
+  .hero-grid {
+    gap: 4.8rem;
+  }
+
+  .how {
+    padding: 4.8rem;
+  }
+  .meals {
+    padding: 4.8rem;
+  }
+  .diet-content {
+    padding: 0;
+  }
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+}
+
+/* 
+*******************************
+Below 940px ( Portrait Tablets)
+*******************************
+*/
+@media (max-width: 59em) {
+  :root {
+    font-size: 50%;
+  }
+
+  .hero-grid {
+    grid-template-columns: 1fr;
+    gap: 6.4rem;
+  }
+  .hero-text-box,
+  .hero-img-box {
+    text-align: center;
+    padding: 0 9.6rem;
+  }
+  .hero-img {
+    width: 60%;
+  }
+  .del-meals {
+    justify-content: center;
+    margin-top: 3.2rem;
+  }
+  .logos img {
+    height: 2.4rem;
+  }
+  .step-num {
+    font-size: 6.4rem;
+  }
+  .meal-content {
+    padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(4, 1fr);
+  }
+  .cta-form {
+    grid-template-columns: 1fr;
+  }
+  .btn-form {
+    margin-top: 2.6rem;
+  }
+}
+
+/* 
+FONT SIZE SYSTEM (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+
+--- 05 Whitespace - SPACING SYSTEM (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/

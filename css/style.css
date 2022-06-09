@@ -50,10 +50,6 @@ medium: 11px
 
 :root {
   /* Write variables here */
-
-  /* Percentage of user's browser font-size settings 
-10px / 16px = 0.625 which in % = 62.5%
-*/
   font-size: 62.5%;
 }
 
@@ -117,6 +113,86 @@ body {
 .main-nav-link.nav-cta-btn:hover,
 .main-nav-link.nav-cta-btn:active {
   background-color: #b6c454;
+}
+
+/* ************************* */
+/* Hero Section */
+/* ************************* */
+
+.section-hero {
+  /* max-width: 130rem; */
+  background-color: #f8f9ee;
+  padding: 3.2rem 0 4.8rem 0;
+  margin-bottom: 4.8rem;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.hero-heading {
+  font-size: 5.2rem;
+  color: #555;
+  line-height: 1.05;
+  letter-spacing: -0.5px;
+  margin-bottom: 3.2rem;
+  font-weight: 700;
+}
+
+.hero-desc {
+  font-size: 2rem;
+  line-height: 1.4;
+  color: #555;
+  margin-bottom: 4.8rem;
+}
+
+.btn:link,
+.btn:visited {
+  text-decoration: none;
+  font-size: 2rem;
+  font-weight: 600;
+  border-radius: 1rem;
+  padding: 1.6rem 3.2rem;
+  box-shadow: 0 0 1px 0px #5b622a; /* you can add the inset keyword*/
+  transition: background-color 0.3s;
+}
+
+.hero-cta-btn:link,
+.hero-cta-btn:visited {
+  color: #fff;
+  background-color: #91972a;
+}
+
+.hero-cta-btn:hover,
+.hero-cta-btn:active {
+  background-color: #b6c454;
+}
+
+.hero-learn-btn:link,
+.hero-learn-btn:visited {
+  background-color: #fff;
+  color: #555;
+}
+
+.hero-learn-btn:hover,
+.hero-learn-btn:active {
+  background-color: #f8f9ee;
+}
+
+.link:link,
+.link:visited {
+  display: inline-block;
+  color: #91972a;
+  text-decoration: none;
+  border-bottom: 1px solid currentColor;
+  padding-bottom: 2px;
+  transition: all 0.3s;
+}
+
+.link:active,
+.link:hover {
+  color: #b6c454;
+  border-bottom: 1px solid transparent;
 }
 
 /* ************************* */
@@ -254,7 +330,7 @@ body {
 
 .meal {
   box-shadow: 0 2.4rem 4.8rem rgba(0, 0, 0, 0.075);
-  border-radius: 11px;
+  border-radius: 5px;
   overflow: hidden;
   transition: all 0.4s;
 }
@@ -571,7 +647,7 @@ body {
     ),
     url(../img/Lady\ cooking.jpg);
   background-size: cover;
-  background-position: center;
+  background-position: top;
 }
 
 .cta-form {
@@ -662,7 +738,7 @@ body {
 
 .footer-heading {
   font-size: 1.8rem;
-  font-weight: 500;
+  font-weight: 700;
   margin-bottom: 3.2rem;
 }
 
