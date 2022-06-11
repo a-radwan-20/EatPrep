@@ -13,11 +13,9 @@ Below 1344px (smaller desktops)
   .hero-grid {
     max-width: 120rem;
   }
-
   .hero-heading {
     font-size: 4.4rem;
   }
-
   .header {
     padding: 0 3.2rem;
   }
@@ -35,10 +33,6 @@ Below 1200px (Landscape Tablets)
   .grid {
     column-gap: 4.8rem;
     row-gap: 6.4rem;
-  }
-  .hero-heading {
-  }
-  .heading-primary {
   }
   .heading-secondary {
     font-size: 3.6rem;
@@ -58,7 +52,6 @@ Below 1200px (Landscape Tablets)
   .hero-grid {
     gap: 4.8rem;
   }
-
   .how {
     padding: 4.8rem;
   }
@@ -70,6 +63,9 @@ Below 1200px (Landscape Tablets)
   }
   .meal-content {
     padding: 2.4rem 3.2rem 3.2rem 3.2rem;
+  }
+  .grid-footer {
+    grid-template-columns: repeat(4, 1fr);
   }
 }
 
@@ -117,12 +113,197 @@ Below 940px ( Portrait Tablets)
   .btn-form {
     margin-top: 2.6rem;
   }
-}
 
-/* 
-FONT SIZE SYSTEM (px)
-10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+  /* *************************
+  Mobile navigation
+  *************************
+  */
 
---- 05 Whitespace - SPACING SYSTEM (px)
-2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+  .btn-mobile-nav {
+    display: block;
+  }
+  .main-nav {
+    /* display: none; */
+    background-color: hwb(65 93% 2% / 0.95);
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    transform: scaleX(0);
+
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+
+    transition: all 0.5s ease-in-out;
+
+    /* Hide Navigation: */
+    /* display: none; instead use opacity to animate later*/
+
+    opacity: 0;
+    pointer-events: none;
+    visibility: hidden;
+  }
+  .nav-open .main-nav {
+    opacity: 1;
+    pointer-events: auto;
+    visibility: visible;
+    transform: scaleX(100%);
+  }
+  .nav-open .icon-mobile-nav[name="close-outline"] {
+    display: block;
+  }
+  .nav-open .icon-mobile-nav[name="menu-outline"] {
+    display: none;
+  }
+  .main-nav-list {
+    padding-top: 19.2rem;
+    flex-direction: column;
+    gap: 9.6rem;
+  }
+  .main-nav-link:link,
+  .main-nav-link:visited {
+    font-size: 3.2rem;
+  }
+
+  /* 
+*******************************
+Below 784px ( Smaller Tablets)
+*******************************
 */
+
+  @media (max-width: 49em) {
+    .meals {
+      grid-template-columns: 1.25fr 1.25fr 0.5fr;
+    }
+    .grid-footer {
+      grid-template-columns: repeat(4, 1fr);
+      /* gap: 4.8rem; */
+    }
+    .address-col,
+    .logo-col {
+      grid-column: span 2;
+    }
+    .nav-col {
+      /* grid-row: 1; */
+      grid-column: span 2;
+    }
+  }
+
+  /* 
+*******************************
+Below 700px ( Smaller Tablets)
+*******************************
+*/
+  @media (max-width: 44em) {
+    .meals {
+      grid-template-columns: 1.5fr 1.5fr;
+    }
+    .diet {
+      grid-column: 1 / -1;
+      justify-self: center;
+    }
+    .diet-content {
+      align-items: center;
+    }
+    .heading-secondary {
+      font-size: 3.2rem;
+      margin-bottom: 4.8rem;
+    }
+  }
+
+  /* *******************************
+Below 569px ( Phones)
+******************************* */
+  @media (max-width: 35.5em) {
+    /* .grid {
+      grid-template-columns: 1fr;
+    } */
+    .grid {
+      row-gap: 4.8rem;
+    }
+    .grid--2-cols,
+    .grid--3-cols,
+    .grid--4-cols,
+    .grid--5-cols {
+      grid-template-columns: repeat(1, 1fr);
+    }
+    .heading-secondary {
+      /* font-size: 2.4rem; */
+    }
+    .section-hero {
+      padding: 0 2.4rem;
+    }
+    .hero-grid {
+      grid-template-columns: 1fr;
+      justify-content: center;
+    }
+    .hero-img {
+      width: 100%;
+    }
+    .btn,
+    .btn:link,
+    .btn:visited {
+      padding: 2.4rem 1.6rem;
+    }
+    .logos img {
+      height: 1.2rem;
+    }
+    .how-step-img-box:nth-child(2) {
+      grid-row: 1;
+    }
+    .how-step-img-box:nth-child(6) {
+      grid-row: 5;
+    }
+    .how-step-img-box {
+      transform: translateY(4.8rem);
+    }
+    .meals {
+      grid-template-columns: 1fr;
+      padding: 6.4rem;
+      margin-bottom: 0;
+    }
+    .testi-heading {
+      padding: 9.6rem;
+      padding-top: 4.8rem;
+      padding-bottom: 0;
+    }
+    .testi-all {
+      display: grid;
+      grid-template-columns: repeat(1, 1fr);
+      row-gap: 4.8rem;
+      column-gap: 8rem;
+      padding: 9.6rem;
+      padding-top: 1.6rem;
+    }
+    .pp {
+      margin: 6.4rem;
+    }
+    .pricing-plan-complete::after {
+      /* display: none; */
+      text-align: center;
+      font-size: 1.2rem;
+      top: 95%;
+      left: 0%;
+      transform: rotate(0deg);
+      transform: translateX(-8%);
+    }
+    .del-meals {
+      display: flex;
+      align-items: center;
+      margin-top: 4.8rem;
+      gap: 1.6rem;
+      flex-direction: column;
+    }
+
+    .cta {
+      display: grid;
+      grid-template-columns: 1fr;
+    }
+    .cta-img-box {
+      height: 48rem;
+      background-position: bottom;
+    }
+  }
+}

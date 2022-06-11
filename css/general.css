@@ -3,7 +3,7 @@
 /* ************************* */
 
 .container {
-  /* 1140px very common view port screen view */
+  /* 1140px common view port screen view */
   max-width: 120rem;
   padding: 0 3.2rem;
   margin: 0 auto;
@@ -101,7 +101,6 @@ strong {
 }
 
 img {
-  /* max-width: 100%; */
 }
 
 *:focus {
