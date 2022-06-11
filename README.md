@@ -159,4 +159,4 @@ It's not easy to cook a healthy meal. You have to think ahead, shop for ingredie
 - Testimonials + gallery
 - Pricing + features
 - CTA
-- Footer
+- Footer without logo.
