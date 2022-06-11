@@ -67,6 +67,11 @@ Below 1200px (Landscape Tablets)
   .grid-footer {
     grid-template-columns: repeat(4, 1fr);
   }
+  .testi-heading {
+    padding: 9.6rem;
+    padding-top: 4.8rem;
+    padding-bottom: 0;
+  }
 }
 
 /* 
@@ -113,7 +118,11 @@ Below 940px ( Portrait Tablets)
   .btn-form {
     margin-top: 2.6rem;
   }
-
+  .testi-heading {
+    padding: 9.6rem;
+    padding-top: 4.8rem;
+    padding-bottom: 0;
+  }
   /* *************************
   Mobile navigation
   *************************
@@ -188,6 +197,11 @@ Below 784px ( Smaller Tablets)
     .nav-col {
       /* grid-row: 1; */
       grid-column: span 2;
+    }
+    .testi-heading {
+      padding: 9.6rem;
+      padding-top: 4.8rem;
+      padding-bottom: 0;
     }
   }
 
