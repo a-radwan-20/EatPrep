@@ -6,7 +6,7 @@ This website will add a great value to my portfolio's collection.
 
 ### About EatPrep
 
-Rising cost of living and a hectic work schedule, make it hard to find time to cook. Luckily, with our service, you'll never have to worry about what to make for dinner or lunch. We deliver a variety of healthy meals and snacks to your home, office, or wherever you're at. Simply choose from our daily meals and we'll deliver it straight to you. Meal planning is a time consuming, boring and tedious task. It's also really expensive. With our AI algorithm, we'll create a custom meal plan, tailored to your specific dietary needs, for all seven days with recipes and grocery lists, for less than $25 per week.
+Rising cost of living and a hectic work schedule, make it realy hard to find time to cook. Luckily, with our service, you'll never have to worry about what to make for dinner or lunch. We deliver a variety of healthy meals and snacks to your home, office, or wherever you're at. Simply choose from our daily meals and we'll deliver it straight to you. Meal planning is a time consuming, boring and tedious task. It's also really expensive. With our AI algorithm, we'll create a custom meal plan, tailored to your specific dietary needs, for all seven days with recipes and grocery lists, for less than $25 per week.
 
 ## Branding
 
