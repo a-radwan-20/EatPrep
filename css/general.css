@@ -2,6 +2,29 @@
 /* Gerenral Components */
 /* ************************* */
 
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Write variables here */
+  font-size: 62.5%;
+  overflow-x: hidden;
+
+  /* Not working on Safari */
+  /* scroll-behavior: smooth; */
+}
+
+body {
+  font-family: "Rubic", sans-serif;
+  line-height: 1;
+  font-weight: 400;
+  color: #555;
+  overflow-x: hidden;
+}
+
 .container {
   /* 1140px common view port screen view */
   max-width: 120rem;
