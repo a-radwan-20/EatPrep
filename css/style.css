@@ -429,8 +429,8 @@ medium: 11px
 }
 
 .testi-heading {
-  /* padding: 9.8rem;
-  padding-bottom: 0; */
+  padding: 9.6rem 9.6rem 0 9.6rem;
+  /* padding-bottom: 0; */
 }
 .testi-all {
   display: grid;
@@ -490,7 +490,7 @@ medium: 11px
 }
 
 .pricing-heading {
-  padding: 4.8rem 9.6rem 2.4rem 9.6rem;
+  padding: 4.8rem 9.6rem 0 9.6rem;
 }
 
 .pricing-plan-starter {
