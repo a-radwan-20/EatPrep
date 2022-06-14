@@ -4,9 +4,9 @@ any screen size should be devided by 16 and floor the result number for em
 */
 
 /* 
-*******************************
+********************************
 Below 1344px (smaller desktops)
-*******************************
+********************************
 */
 
 @media (max-width: 84em) {
