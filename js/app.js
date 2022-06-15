@@ -16,7 +16,27 @@ navBtnElem.addEventListener('click', function () {
 const linksElements = document.querySelectorAll('a:link');
 linksElements.forEach(function (link) {
   link.addEventListener('click', function (e) {
-    console.log(e)
+    e.preventDefault();
+    //get the href atrribute
+    const hrefElem = link.getAttribute('href');
+
+    //if the href the window scroll to  
+    if (hrefElem === '#') window.scrollTo({
+      top: 0,
+      behavior: 'smooth'
+    })
+    //Scroll to sections links
+    if (hrefElem.startsWith('#') && hrefElem.length > 1) {
+      const sectionElem = document.querySelector(hrefElem);
+      sectionElem.scrollIntoView({
+        behavior: "smooth"
+      })
+    }
+
+    //Hide the mobile nav after click on any menu item
+    if (link.classList.contains('main-nav-link')) {
+      headerElem.classList.toggle('nav-open');
+    }
   })
 })
 
