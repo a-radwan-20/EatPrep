@@ -40,6 +40,29 @@ linksElements.forEach(function (link) {
   })
 })
 
+//Sticky Navigation
+const sectionHeroElem = document.querySelector(".section-hero");
+
+const obs = new IntersectionObserver(
+  function (entries) {
+    const entry = entries[0];
+
+    if (!entry.isIntersecting) {
+      document.body.classList.add("sticky");
+    }
+
+    if (entry.isIntersecting) {
+      document.body.classList.remove("sticky");
+    }
+  }, {
+    // In the viewport
+    root: null,
+    threshold: 0,
+    rootMargin: "-60px",
+  }
+);
+obs.observe(sectionHeroElem);
+
 // Fix: flexbox gap property is missing in some Safari ver.
 function checkFlexGap() {
   var flex = document.createElement("div");

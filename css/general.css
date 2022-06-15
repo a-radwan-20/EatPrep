@@ -39,7 +39,7 @@ body {
 }
 /* specific grid for footer */
 .grid-footer {
-  grid-template-columns: 1.5fr 1.5fr 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 /* Grid to center vertically  */
 .grid--center-v {
