@@ -3,11 +3,10 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta
-    name="We believe everyone deserves to eat well. We deliver delicious, healthy meals to your door every day so you can focus on leading a happier life"
-    content="Being healthy is hard, but we make it easy. With the highest quality ingredients and a team of expert chefs, we deliver a meal to your door every single day. All of our meals are designed to be low calorie, high protein, and delivered in under 45 minutes. Whether you're too busy to cook or just want a change from your usual diet, we have what you need!">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description"
+    content="Being healthy is hard, but we make it easy. With the highest quality ingredients and a team of expert chefs, we deliver a meal to your door every single day. All of our meals are designed to be low calorie, high protein, and delivered in under 45 minutes. Whether you're too busy to cook or just want a change from your usual diet, we have what you need!">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,6 +14,12 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Open+Sans&family=Poppins:wght@400;600&family=Rubik:wght@400;500;600;700&display=swap"
     rel="stylesheet">
+
+  <link rel="icon" href="img/fav/fav-65.png">
+
+  <link rel="apple-touch-icon" href="img/fav/fav-192.png">
+
+  <link rel="manifest" href="manifest.webmanifest">
 
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/style.css">
@@ -74,7 +79,14 @@
       </div>
 
       <div class="hero-img-box">
-        <img src="img/hero-img.png" class="hero-img" alt="Lovely dishes of healthy food collected in collage of photos">
+        <picture>
+          <source srcset="img/hero-img.webp" type="image/webp" />
+          <source srcset="img/hero-img.png" type="image/png" />
+          <img src="img/hero-img.png" class="hero-img"
+            alt="Lovely dishes of healthy food collected in collage of photos">
+        </picture>
+
+
       </div>
     </div>
   </section>
@@ -513,18 +525,18 @@
           Start recive your meals everyday without the need to think and cook every single day.
           You can subscribe now and cancle anytime, and the first meal on us!
         </p>
-        <form class="cta-form">
+        <form class="cta-form" name="sign-up" netlify>
           <div>
             <label for="full-name">Full Name</label>
-            <input type="text" id="full-name" placeholder="John Doe" required />
+            <input type="text" id="full-name" placeholder="John Doe" name="full-name" required />
           </div>
           <div>
             <label for="email">Email Address</label>
-            <input type="email" id="email" placeholder="email@example.com" required />
+            <input type="email" id="email" placeholder="email@example.com" name="email" required />
           </div>
           <div>
             <label for="select-where">Where did you hear about us</label>
-            <select id="select-where" required>
+            <select id="select-where" name="select-where" required>
               <option value="choose">Choose one option</option>
               <option value="social-media">Social Media</option>
               <option value="youtube">Youtube</option>
