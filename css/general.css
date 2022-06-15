@@ -124,9 +124,6 @@ strong {
   font-weight: 600;
 }
 
-img {
-}
-
 *:focus {
   outline: none;
   box-shadow: 0 0 0 0.5rem hsla(69, 40%, 27%, 0.504);

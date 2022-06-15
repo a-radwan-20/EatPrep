@@ -132,7 +132,9 @@ Below 940px ( Portrait Tablets)
   }
   .main-nav {
     /* display: none; */
-    background-color: hwb(65 93% 2% / 0.95);
+    background-color: rgba(249, 250, 237, 0.9);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(10px);
     position: absolute;
     left: 0;
     top: 0;
@@ -318,5 +320,45 @@ Below 569px (Phones & sm phones)
       height: 48rem;
       background-position: bottom;
     }
+  }
+}
+
+/* Fix: Safari's flexbox gap */
+.no-flexbox-gap .main-nav-list li:not(:last-child) {
+  margin-right: 4.8rem;
+}
+.no-flexbox-gap .list-item:not(:last-child) {
+  margin-bottom: 1.6rem;
+}
+.no-flexbox-gap .list-icon:not(:last-child) {
+  margin-right: 1.6rem;
+}
+.no-flexbox-gap .delivered-faces {
+  margin-right: 1.6rem;
+}
+.no-flexbox-gap .meal-attribute:not(:last-child) {
+  margin-bottom: 2rem;
+}
+.no-flexbox-gap .meal-icon {
+  margin-right: 1.6rem;
+}
+.no-flexbox-gap .footer-row div:not(:last-child) {
+  margin-right: 6.4rem;
+}
+.no-flexbox-gap .social-links li:not(:last-child) {
+  margin-right: 2.4rem;
+}
+.no-flexbox-gap .footer-nav li:not(:last-child) {
+  margin-bottom: 2.4rem;
+}
+@media (max-width: 75em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 3.2rem;
+  }
+}
+@media (max-width: 59em) {
+  .no-flexbox-gap .main-nav-list li:not(:last-child) {
+    margin-right: 0;
+    margin-bottom: 4.8rem;
   }
 }
